@@ -2,10 +2,23 @@
   "name": "nodecpp",
   "version": "1.0.0",
   "description": "Parse and run simple C++ code with nodejs.",
-  "main": "main.js",
+  "main": "parse.js",
+  "dependencies": {
+    "fkutil": "^2.3.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ForkFG/nodecpp.git"
+  },
+  "author": "ForkKILLET",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ForkFG/nodecpp/issues"
+  },
+  "homepage": "https://github.com/ForkFG/nodecpp#readme"
 }
+
